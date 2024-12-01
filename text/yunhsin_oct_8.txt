@@ -1,0 +1,52 @@
+October 7 todos:
+
+Use PSD plots
+
+Sampling interval = 0.05
+
+
+
+Nperseg = granularity
+
+
+__Grinding:__
+
+Isolate frequency peaks ie. t2_b btw 3-6 (start with magnitude vector, later can do with individual axes)
+
+Reconstruct signal on time domain
+
+At what timestamps do we see the frequencies of interest
+
+Inverse Fourier
+
+
+
+
+
+Plot psd for each axis individually
+
+
+
+
+
+
+Arrangement:
+
+T1 without visual assistance
+
+T2 with visual assistance
+
+
+
+
+
+
+
+
+
+Organize GitHub repo:
+
+Images to store result of previous experiments
+
+
+

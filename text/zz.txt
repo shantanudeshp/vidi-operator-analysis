@@ -1,0 +1,21 @@
+UPLOAD ALL FILES TO GITHUB
+
+
+
+Look into fft frequency bands - filter out
+
+
+
+
+Try with different frequency bands, make sure the resultant plots are significantly different
+
+
+
+Align timestamps (stamp 0, 1, 2, 3...)?
+
+Multiline chart
+
+
+Potentially truncate data (cut it down to make equal number of samples)
+
+Consider not specifying multivariate depth argument

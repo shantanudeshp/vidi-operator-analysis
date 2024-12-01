@@ -23,14 +23,12 @@ t2_a_data['Magnitude'] = (t2_a_data['X (mg)']**2 + t2_a_data['Y (mg)']**2 + t2_a
 t2_b_data['Magnitude'] = (t2_b_data['X (mg)']**2 + t2_b_data['Y (mg)']**2 + t2_b_data['Z (mg)']**2)**0.5
 
 # Function to compute and plot spectrogram
-def plot_spectrogram(data: pd.Series, title: str, fs: int = 1000, nperseg: int = 256) -> None:
+def plot_spectrogram(data: pd.Series, title: str, fs: int = 20, nperseg: int = 256) -> None:
     f, t, Sxx = spectrogram(data, fs, nperseg=nperseg)
     fig = go.Figure(data=go.Heatmap(
         z=10 * np.log10(Sxx),  # Convert to dB scale for better visibility
         x=t,
         y=f,
-        zmin=-100,  # Adjust these values based on your data
-        zmax=0
     ))
     fig.update_layout(
         title=title,

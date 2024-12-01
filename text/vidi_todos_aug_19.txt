@@ -1,0 +1,26 @@
+vidi_todos_aug_19
+
+Set up GitHub repo with all applicable code
+
+numpy angle function - fft to phase
+
+Functional principal component analysis
+
+
+
+Compute magnitude vectors for task 2 [tool arrangement]
+
+Feed directly into PCA
+
+
+Task 1: see if can get inverse Fourier working (https://stackoverflow.com/questions/28618591/numpy-fft-what-is-the-return-value-amplitude-phase-shift-or-angle)
+
+Task 2: for tool arrangement, determine difference between left hand and right hand (use fpca)
+
+[https://fda.readthedocs.io/en/latest/auto_examples/plot_fpca.html]
+
+Magnitude shape plot (https://fda.readthedocs.io/en/latest/auto_examples/plot_magnitude_shape.html)
+
+
+
+

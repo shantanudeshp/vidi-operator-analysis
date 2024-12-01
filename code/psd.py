@@ -51,7 +51,7 @@ plot_acceleration(t1_b_data, 'T1_B Acceleration Data')
 plot_acceleration(t2_a_data, 'T2_A Acceleration Data')
 plot_acceleration(t2_b_data, 'T2_B Acceleration Data')
 
-def compute_psd(data, fs=1000):
+def compute_psd(data, fs=20):
     f, Pxx = welch(data, fs, nperseg=1024)
     return f, Pxx
 
